@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 require('dbconn.php');
 
 $bookid=$_GET['id1'];
